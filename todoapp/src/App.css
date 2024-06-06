@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#box{
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid black;1 */
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#inner{
+  height: auto;
+  width: 800px;
+  padding: 50px 50px;
+  /* border: 2px solid white; */
+  background-color: rgba(255, 255, 255, 0.123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+h1{
+  color: white;
+}
+input{  
+  background-color: rgb(255, 255, 255);
+  border: 0px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  position:absolute;
+  left: 100px;
+}
+#btn{
+  position: absolute;
+  right: 100px;
+  padding: 8px 18px;
+  background-color: #ffbe0b;
+  border: 0px solid black;
+  color: white;
+  border-radius: 5px;
+}
+#outer{
+  height: auto;
+  width: auto;
+  /* border: 1px solid white; */
+  display: flex;
+
+  align-items: center;
+}
+
+#inner1{
+  height: auto;
+  width: 800px;
+  padding: 0px 50px;
+  /* border: 1px solid white; */
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.114);
+  position: relative;
+}
+.btn{
+  position: absolute;
+  right: 100px;
+  padding: 8px 20px;
+  background-color: #ffbe0b;
+  border: 0px solid black;
+  color: white;
+  border-radius: 5px;
+}
+.btn2{
+  position: absolute;
+  right: 200px;
+  padding: 8px 18px;
+  background-color: #ffbe0b;
+  border: 0px solid black;
+  color: white;
+  border-radius: 5px;
+}
+#outer h1{
+  text-transform: uppercase;
+  font-size:25px;
+}
+#outer h1 span{
+  text-transform: capitalize;
+  font-size: 20px;
+  color: red;
+}
